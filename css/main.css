@@ -49,6 +49,12 @@ h1, h2, h3, h4, h5, h6 {
         padding-bottom: 27px;
         border-bottom: 3px solid #fff;
         list-style: none;
+
+        transition: all 0.5s linear;
+    }
+
+    .menu:hover  {
+        border-bottom: 3px solid #1f1f1f;
     }
 
     .menu_item {
@@ -59,10 +65,16 @@ h1, h2, h3, h4, h5, h6 {
         
         text-decoration: none;
         text-transform: uppercase;
+        transition: all 0.3s linear;
     }
     
     .menu_item_first {
         margin: 0;
+    }
+
+    .menu_item:hover {
+        padding-bottom: 5px;
+        color: #1f1f1f;
     }
 
     /* FIRST-SCREEN */
@@ -138,9 +150,21 @@ hr{
     padding: 18px 48px;
     color: #fff;
     background: #C8A35F;
+    border: 1px solid #C8A35F;
+    border-radius: 5%;
+
     text-decoration: none;
     text-transform: uppercase;
-    
+    transition: all 0.3s linear;
+}
+
+.btn:hover {
+    padding: 16px 46px;
+    color: #1f1f1f;
+    background: #9b7a3e;
+    border: 1px solid #9b7a3e;
+    border-radius: 10%;
+    opacity: 0.8;
 }
 
 .img_services {
