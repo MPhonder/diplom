@@ -155,7 +155,7 @@ hr{
     display: flex;
     flex-direction: column;
     margin-top: 60px;
-    margin-left: -13vw;
+    align-items: center;
 }
 
 .item-blocklist-service-row_1, .item-blocklist-service-row_2, .item-blocklist-service-row_3{
@@ -164,9 +164,9 @@ hr{
 }
 
 .item-blocklist-service {
-    width: 70vw;
-    margin-right: 15vw;
-    margin-bottom: 10vh;
+    width: auto;
+    margin-right: 100px;
+    margin-bottom: 50px;
     padding: 35px 35px;
     list-style-type: none;
     background-color: #393F47;
@@ -217,30 +217,29 @@ hr{
 /* SECTION ABOUT-COMPANY */
 
 .about-company-offer {
-    margin-top: 50vh;
-    margin-bottom: 90vh;
+    margin-top: 200px;
+    margin-bottom: 500px;
 }
 
 .about-company-title {
-    position: absolute;
     font-size: 40px;
     margin-top: 40px;
     text-transform: uppercase;
 }
 
 .about-company-text {
-    position: absolute;
-    margin-top: 105px;
+    margin-top: -450px;
     font-size: 16px;
     line-height: 23px;
+    z-index: 2;
     width: 445px;
     height: 179px;
 }
 
 .about-company-rectangle {
-    position: absolute;
     margin-left: 405px;
-    
+    position: relative;
+    z-index: -1;
     width: 410px;
     height: 482px;
     background: #393F47;
@@ -251,14 +250,12 @@ hr{
         display: flex;
         flex-direction: column;
         position: absolute;
-        margin-top: 100px;
         margin-left: 700px;
     }
     .info-company2 {
         display: flex;
         flex-direction: column;
         position: absolute;
-        margin-top: 100px;
         margin-left: 900px;
     }
 
@@ -284,12 +281,14 @@ hr{
 
     /* HISTORY COMPANY */
     .history_company {
-        margin-top: 75vh;
+        margin-top: 600px;
+        margin-bottom: 350px;
+        
     }
 
     .history_company-text {
         padding: 50px;
-        width: 60vw;
+        width: 100%;
         line-height: 2em;
     }
 
@@ -342,8 +341,17 @@ hr{
 
 /* FOOTER */
 .footer {
+    margin-top: 250px;
+    width: 100%;
     font-size: 14px;
-    margin-top: 50vh;
+    background: #C8A35F;
+}
+
+.footer_about_company {
+    position: absolute;
+    margin-top: 250px;
+    width: 100%;
+    font-size: 14px;
     background: #C8A35F;
 }
 
